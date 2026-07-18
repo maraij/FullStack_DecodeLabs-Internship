@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maraij Babar - Internship Tasks</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg,#667eea,#764ba2);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .container{
+            background:white;
+            width:90%;
+            max-width:800px;
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color:#333;
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#666;
+            margin-bottom:30px;
+        }
+
+        .tasks{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:#f8f9fa;
+            padding:25px;
+            border-radius:15px;
+            transition:0.3s;
+            border:1px solid #ddd;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .card h2{
+            color:#444;
+            margin-bottom:10px;
+        }
+
+        .card p{
+            margin-bottom:20px;
+            color:#777;
+        }
+
+        .btn{
+            display:inline-block;
+            text-decoration:none;
+            background:#667eea;
+            color:white;
+            padding:10px 20px;
+            border-radius:8px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#4f63d8;
+        }
+
+        footer{
+            margin-top:30px;
+            color:#777;
+            font-size:14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1> Internship Tasks Portfolio</h1>
+
+        <p>
+            Welcome to my Internship Project Repository.
+            Click on any week below to view the completed work.
+        </p>
+
+        <div class="tasks">
+
+            <div class="card">
+                <h2> Project 1</h2>
+                <p>Introduction & Initial Development Tasks</p>
+                <a href="Week%201/index.html" class="btn">
+                    View Project
+                </a>
+            </div>
+
+            <div class="card">
+                <h2> Project 2 2</h2>
+                <p>Frontend Design & Feature Development</p>
+                <a href="Week%202/index.html" class="btn">
+                    View Project
+                </a>
+            </div>
+
+            <div class="card">
+                <h2> Project 3</h2>
+                <p>Product Details & Interactive Features</p>
+                <a href="Week%203/index.html" class="btn">
+                    View Project
+                </a>
+            </div>
+
+        </div>
+
+        <footer>
+            Created by <strong>Maraij Babar</strong> 
+        </footer>
+
+    </div>
+
+</body>
+</html>
